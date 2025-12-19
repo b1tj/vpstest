@@ -1,0 +1,231 @@
+
+{
+
+    "images": {
+        "title": {
+            "image": "modpack:textures/Hypothermia.png",
+            "posX": -100,
+            "posY": -135,
+            "width": 200,
+            "height": 93,
+            "alignment": "center"
+        }
+    },
+
+    "buttons": {
+        "mainmenu": {
+            "text": "Main Menu",
+            "normalTextColor": 6081343,
+            "hoverTextColor": 41704,
+            "texture": "modpack:Buttons/Long_Button.png",
+            "posX": -80,
+            "posY": -42,
+            "width": 156,
+            "height": 20,
+            imageWidth: 312,
+            imageHeight: 40,
+            "alignment": "center",
+            "action": {
+                "type": "openGui",
+                "gui": "custom.mainmenu"
+            }
+        },
+
+        "Raident_Sora": {
+            "text": "Raident_Sora",
+            "normalTextColor": 6081343,
+            "hoverTextColor": 41704,
+            "texture": "modpack:Buttons/Long_Button.png",
+            "posX": -80,
+            "posY": -21,
+            "width": 156,
+            "height": 20,
+            imageWidth: 312,
+            imageHeight: 40,
+            "alignment": "center",
+            "action": {
+                "type": "openLink",
+                "link": "https://www.twitch.tv/Radient_Sora"
+            }
+        },
+
+        "demongirl143": {
+            "text": "Demongirl143",
+            "normalTextColor": 6081343,
+            "hoverTextColor": 41704,
+            "texture": "modpack:Buttons/Long_Button.png",
+            "posX": -80,
+            "posY": 0,
+            "width": 156,
+            "height": 20,
+            imageWidth: 312,
+            imageHeight: 40,
+            "alignment": "center",
+            "action": {
+                "type": "openLink",
+                "link": "https://www.twitch.tv/demongirl143"
+            }
+        },
+
+        "Battery3996": {
+            "text": "Battery3996",
+            "normalTextColor": 6081343,
+            "hoverTextColor": 41704,
+            "texture": "modpack:Buttons/Long_Button.png",
+            "posX": -80,
+            "posY": 21,
+            "width": 156,
+            "height": 20,
+            imageWidth: 312,
+            imageHeight: 40,
+            "alignment": "center",
+            "action": {
+                "type": "openLink",
+                "link": "https://www.twitch.tv/Battery3996"
+            }
+        },
+
+        "TheRealP455w0rd": {
+            "text": "TheRealP455w0rd",
+            "normalTextColor": 6081343,
+            "hoverTextColor": 41704,
+            "texture": "modpack:Buttons/Long_Button.png",
+            "posX": -80,
+            "posY": 42,
+            "width": 156,
+            "height": 20,
+            imageWidth: 312,
+            imageHeight: 40,
+            "alignment": "center",
+            "action": {
+                "type": "openLink",
+                "link": "https://mods.curse.com/members/TheRealp455w0rd/projects"
+            }
+        },
+
+        "Lothrazar": {
+            "text": "Lothrazar",
+            "normalTextColor": 6081343,
+            "hoverTextColor": 41704,
+            "texture": "modpack:Buttons/Long_Button.png",
+            "posX": -80,
+            "posY": 63,
+            "width": 156,
+            "height": 20,
+            imageWidth: 312,
+            imageHeight: 40,
+            "alignment": "center",
+            "action": {
+                "type": "openLink",
+                "link": "https://mods.curse.com/members/Lothrazar/projects"
+            }
+        },
+
+        "EPIIC_THUNDERCAT": {
+            "text": "EPIIC_THUNDERCAT",
+            "normalTextColor": 6081343,
+            "hoverTextColor": 41704,
+            "texture": "modpack:Buttons/Long_Button.png",
+            "posX": -80,
+            "posY": 84,
+            "width": 156,
+            "height": 20,
+            imageWidth: 312,
+            imageHeight: 40,
+            "alignment": "center",
+            "action": {
+                "type": "openLink",
+                "link": "https://mods.curse.com/members/EPIIC_THUNDERCAT/projects"
+            }
+        },
+
+        "Growlith1223": {
+            "text": "Growlith1223",
+            "normalTextColor": 6081343,
+            "hoverTextColor": 41704,
+            "texture": "modpack:Buttons/Long_Button.png",
+            "posX": -80,
+            "posY": 105,
+            "width": 156,
+            "height": 20,
+            imageWidth: 312,
+            imageHeight: 40,
+            "alignment": "center",
+            "action": {
+                "type": "openLink",
+                "link": "https://mods.curse.com/members/Growlith1223/projects"
+            }
+        },
+
+        "refresh": {
+            "text": "",
+            "posX": -154,
+            "posY": 132,
+            "width": 20,
+            "height": 20,
+            "texture": "modpack:Buttons/refresh.png",
+            "action": {
+                "type": "refresh"
+            }
+        }
+    },
+
+    /* These options are used for miscellaneous things. example: splash text, Mainmenu bg, or extra texts */
+
+    "texts": {
+        "Author": {
+            "text": "Modpack by: Team Rapture",
+            "posX": -90,
+            "posY": -13,
+            "fontSize": .6,
+            "color": -1,
+            "hoverColor": -1,
+            "alignment": "bottom_right"
+        },
+        "forge": {
+            "text": "Minecraft #mcversion#-1.10.2",
+            "posX": 3,
+            "posY": -19,
+            "fontSize": .6,
+            "color": -1,
+            "hoverColor": -1,
+            "alignment": "bottom_left"
+        },
+        "modsloaded": {
+            "text": "#modsloaded# Mods Loaded",
+            "posX": 3,
+            "posY": -13,
+            "fontSize": .6,
+            "color": -1,
+            "hoverColor": -1,
+            "alignment": "bottom_left"
+        },
+        "modpack": {
+            "text": "file:modpack:textures/version.txt",
+            "posX": 3,
+            "posY": -25,
+            "fontSize": .6,
+            "color": -1,
+            "hoverColor": -1,
+            "alignment": "bottom_left"
+        }
+    },
+
+    "other": {
+        "splash-text": {
+            "posX": 110,
+            "posY": -60,
+            "color": -256,
+            "alignment": "center",
+            "texts": "file:modpack:textures/splash.txt"
+        },
+
+        "panorama": {
+            "images": "modpack:panorama/panorama_%c.png",
+            "animate": true,
+            "animationSpeed": 1,
+            "blur": true,
+            "gradient": true
+        }
+    }
+}

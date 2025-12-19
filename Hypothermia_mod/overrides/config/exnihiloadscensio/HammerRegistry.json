@@ -1,0 +1,218 @@
+{
+  "minecraft:cobblestone:0": [
+    {
+      "stack": {
+        "name": "minecraft:gravel",
+        "amount": 1,
+        "meta": 0
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:sand:0": [
+    {
+      "stack": {
+        "name": "exnihiloadscensio:blockDust",
+        "amount": 1,
+        "meta": 0
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+   "excompressum:compressed_block:1": [
+    {
+      "stack": {
+        "name": "excompressum:compressed_block",
+        "amount": 1,
+        "meta": 2
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+   ],
+    "excompressum:compressed_block:2": [
+    {
+      "stack": {
+        "name": "excompressum:compressed_block",
+        "amount": 1,
+        "meta": 3
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+    ],
+     "excompressum:compressed_block:3": [
+    {
+      "stack": {
+        "name": "excompressum:compressed_block",
+        "amount": 1,
+        "meta": 0
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+     ],
+      "extrautils2:compressedcobblestone": [
+    {
+      "stack": {
+        "name": "extrautils2:compressedgravel",
+        "amount": 1,
+        "meta": 0
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+      ],
+       "extrautils2:compressedgravel": [
+    {
+      "stack": {
+        "name": "extrautils2:compressedsand",
+        "amount": 1,
+        "meta": 0
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+       ],
+        "extrautils2:compressedsand": [
+    {
+      "stack": {
+        "name": "excompressum:compressed_block",
+        "amount": 1,
+        "meta": 0
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+        ],
+  "minecraft:end_stone:0": [
+    {
+      "stack": {
+        "name": "exnihiloadscensio:blockEndstoneCrushed",
+        "amount": 1,
+        "meta": 0
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:netherrack:0": [
+    {
+      "stack": {
+        "name": "exnihiloadscensio:blockNetherrackCrushed",
+        "amount": 1,
+        "meta": 0
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:gravel:0": [
+    {
+      "stack": {
+        "name": "minecraft:sand",
+        "amount": 1,
+        "meta": 0
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:log:*": [
+    {
+      "stack": {
+        "name": "excompressum:wood_chippings",
+        "amount": 1,
+        "meta": 0
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    },
+    {
+      "stack": {
+        "name": "excompressum:wood_chippings",
+        "amount": 1,
+        "meta": 0
+      },
+      "miningLevel": 0,
+      "chance": 0.75,
+      "fortuneChance": 0.0
+    },
+    {
+      "stack": {
+        "name": "excompressum:wood_chippings",
+        "amount": 1,
+        "meta": 0
+      },
+      "miningLevel": 0,
+      "chance": 0.5,
+      "fortuneChance": 0.0
+    },
+    {
+      "stack": {
+        "name": "excompressum:wood_chippings",
+        "amount": 1,
+        "meta": 0
+      },
+      "miningLevel": 0,
+      "chance": 0.25,
+      "fortuneChance": 0.0
+    }
+  ],
+"minecraft:log2:*": [
+    {
+      "stack": {
+        "name": "excompressum:wood_chippings",
+        "amount": 1,
+        "meta": 0
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    },
+    {
+      "stack": {
+        "name": "excompressum:wood_chippings",
+        "amount": 1,
+        "meta": 0
+      },
+      "miningLevel": 0,
+      "chance": 0.75,
+      "fortuneChance": 0.0
+    },
+    {
+      "stack": {
+        "name": "excompressum:wood_chippings",
+        "amount": 1,
+        "meta": 0
+      },
+      "miningLevel": 0,
+      "chance": 0.5,
+      "fortuneChance": 0.0
+    },
+    {
+      "stack": {
+        "name": "excompressum:wood_chippings",
+        "amount": 1,
+        "meta": 0
+      },
+      "miningLevel": 0,
+      "chance": 0.25,
+      "fortuneChance": 0.0
+    }
+  ]
+}

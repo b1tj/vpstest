@@ -1,0 +1,177 @@
+<!--
+  Custom recipes that will not be over written by Ender IO are added here. Examples of recipes can be found in the
+  AlloySmelterRecipes_Core.xml and general format documentation in the SAGMillRecipes_Core/User.
+
+  As well as adding custom recipes to the operation of the Alloy Smelter, a vanilla furnace recipe can be controlled.
+  It can be disabled completely by simply adding this line:
+
+  <vanillaFurnaceRecipes enabled="false" />
+
+  It is also possible to selectively disable vanilla furnace recipes. The following example disables the smelting of iron
+  ingots, ender pearls, and any form of iron ore registered in the ore dictionary.
+
+  <vanillaFurnaceRecipes>
+
+	<exclude>
+      <itemStack modID="minecraft" itemName="iron_ingot" />
+      <itemStack modID="minecraft" itemName="ender_pearl" />
+      <itemStack oreDictionary="oreIron" />
+    </exclude>
+
+  </vanillaFurnaceRecipes>
+
+  Add this line to disable the creation of TE alloys using the Alloy Smelter.
+
+  <recipeGroup name="Thermal Expansion" enabled="false" />
+
+-->
+
+<AlloySmelterRecipes>
+<recipeGroup name="EnderIO" > <!-- Required for EnderIO to function correctly. -->
+    <recipe name="Iron Ore" energyCost="10000" >
+      <input>
+        <itemStack modID="minecraft" itemName="iron_block" />
+        <itemStack modID="minecraft" itemName="stone"/>
+      </input>
+      <output>
+        <itemStack modID="minecraft" itemName="iron_ore" itemMeta="0" exp="0.5" />
+      </output>
+    </recipe>
+	<recipe name="Gold Ore" energyCost="10000" >
+      <input>
+        <itemStack modID="minecraft" itemName="gold_block" />
+        <itemStack modID="minecraft" itemName="stone"/>
+      </input>
+      <output>
+        <itemStack modID="minecraft" itemName="gold_ore" itemMeta="0" exp="0.5" />
+      </output>
+    </recipe>
+	<recipe name="Coal Ore" energyCost="10000" >
+      <input>
+        <itemStack modID="minecraft" itemName="coal_block" />
+        <itemStack modID="minecraft" itemName="stone"/>
+      </input>
+      <output>
+        <itemStack modID="minecraft" itemName="coal_ore" itemMeta="0" exp="0.5" />
+      </output>
+    </recipe>
+	<recipe name="Lapis Lazuli Ore" energyCost="10000" >
+      <input>
+        <itemStack modID="minecraft" itemName="lapis_block" />
+        <itemStack modID="minecraft" itemName="stone"/>
+      </input>
+      <output>
+        <itemStack modID="minecraft" itemName="lapis_ore" itemMeta="0" exp="0.5" />
+      </output>
+    </recipe>
+	<recipe name="Diamond Ore" energyCost="10000" >
+      <input>
+        <itemStack modID="minecraft" itemName="diamond_block" />
+        <itemStack modID="minecraft" itemName="stone"/>
+      </input>
+      <output>
+        <itemStack modID="minecraft" itemName="diamond_ore" itemMeta="0" exp="0.5" />
+      </output>
+    </recipe>
+	<recipe name="Redstone Ore" energyCost="10000" >
+      <input>
+        <itemStack modID="minecraft" itemName="redstone_block" />
+        <itemStack modID="minecraft" itemName="stone"/>
+      </input>
+      <output>
+        <itemStack modID="minecraft" itemName="redstone_ore" itemMeta="0" exp="0.5" />
+      </output>
+    </recipe>
+	<recipe name="Emerald Ore" energyCost="10000" >
+      <input>
+        <itemStack modID="minecraft" itemName="emerald_block" />
+        <itemStack modID="minecraft" itemName="stone"/>
+      </input>
+      <output>
+        <itemStack modID="minecraft" itemName="emerald_ore" itemMeta="0" exp="0.5" />
+      </output>
+    </recipe>
+	<recipe name="Copper Ore" energyCost="10000" >
+      <input>
+        <itemStack modID="ic2" itemName="resource" itemMeta="6" />
+        <itemStack modID="minecraft" itemName="stone"/>
+      </input>
+      <output>
+        <itemStack modID="ic2" itemName="resource" itemMeta="1" exp="0.5" />
+      </output>
+    </recipe>
+	<recipe name="Nether Quartz Ore" energyCost="10000" >
+      <input>
+        <itemStack modID="minecraft" itemName="quartz_block" itemMeta="0" />
+        <itemStack modID="minecraft" itemName="netherrack"/>
+      </input>
+      <output>
+        <itemStack modID="minecraft" itemName="quartz_ore" itemMeta="0" exp="0.5" />
+      </output>
+    </recipe>
+	<recipe name="Tin Ore" energyCost="10000" >
+      <input>
+        <itemStack modID="ic2" itemName="resource" itemMeta="9" />
+        <itemStack modID="minecraft" itemName="stone"/>
+      </input>
+      <output>
+        <itemStack modID="ic2" itemName="resource" itemMeta="3" exp="0.5" />
+      </output>
+    </recipe>
+	<recipe name="Uranium Ore" energyCost="10000" >
+      <input>
+        <itemStack modID="bigreactors" itemName="blockMetals" itemMeta="0" />
+        <itemStack modID="minecraft" itemName="stone"/>
+      </input>
+      <output>
+        <itemStack modID="ic2" itemName="resource" itemMeta="4" exp="0.5" />
+      </output>
+    </recipe>
+	<recipe name="Blue Slime Ball" energyCost="1000" >
+      <input>
+        <itemStack oreDictionary= "dyeBlue" />
+        <itemStack modID="minecraft" itemName="slime_ball"/>
+      </input>
+      <output>
+        <itemStack modID="tconstruct" itemName="edible" itemMeta="1" exp="0.5" />
+      </output>
+    </recipe>
+	<recipe name="Purple Slime Ball" energyCost="1000" >
+      <input>
+        <itemStack oreDictionary= "dyePurple" />
+        <itemStack modID="minecraft" itemName="slime_ball"/>
+      </input>
+      <output>
+        <itemStack modID="tconstruct" itemName="edible" itemMeta="2" exp="0.5" />
+      </output>
+    </recipe>
+	<recipe name="Blue Slime Sapling" energyCost="10000" >
+      <input>
+        <itemStack oreDictionary= "treeSapling" />
+        <itemStack modID="tconstruct" itemName="slime_congealed" itemMeta="1"/>
+      </input>
+      <output>
+        <itemStack modID="tconstruct" itemName="slime_sapling" itemMeta="0" exp="0.5" />
+      </output>
+    </recipe>
+	<recipe name="Purple Slime Sapling" energyCost="10000" >
+      <input>
+        <itemStack oreDictionary= "treeSapling" />
+        <itemStack modID="tconstruct" itemName="slime_congealed" itemMeta="2"/>
+      </input>
+      <output>
+        <itemStack modID="tconstruct" itemName="slime_sapling" itemMeta="1" exp="0.5" />
+      </output>
+    </recipe>
+	<recipe name="Slimy Grass" energyCost="10000" >
+      <input>
+        <itemStack oreDictionary= "grass" />
+        <itemStack modID="minecraft" itemName="slime" itemMeta="0"/>
+      </input>
+      <output>
+        <itemStack modID="tconstruct" itemName="slime_grass" itemMeta="0" exp="0.5" />
+      </output>
+    </recipe>
+	</recipeGroup>
+
+</AlloySmelterRecipes>

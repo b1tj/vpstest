@@ -1,0 +1,81 @@
+[
+  {
+    "fluidName": "water",
+    "input": {
+      "name": "exnihiloadscensio:blockDust",
+      "meta": 0
+    },
+    "output": {
+      "name": "minecraft:clay",
+      "meta": 0
+    }
+  },
+  {
+    "fluidName": "lava",
+    "input": {
+      "name": "minecraft:redstone",
+      "meta": 0
+    },
+    "output": {
+      "name": "minecraft:netherrack",
+      "meta": 0
+    }
+  },
+  {
+    "fluidName": "lava",
+    "input": {
+      "name": "minecraft:glowstone_dust",
+      "meta": 0
+    },
+    "output": {
+      "name": "minecraft:end_stone",
+      "meta": 0
+    }
+   
+},
+{
+    "fluidName": "witchwater",
+    "input": {
+      "name": "minecraft:dirt",
+      "meta": 1
+    },
+    "output": {
+      "name": "minecraft:dirt",
+      "meta": 2
+    }
+  },
+  {
+    "fluidName": "witchwater",
+    "input": {
+      "name": "minecraft:sand",
+      "meta": 0
+    },
+    "output": {
+      "name": "minecraft:soul_sand",
+      "meta": 0
+    }
+  },
+  {
+    "fluidName": "water",
+    "input": {
+      "name": "extrautils2:compressedcobblestone",
+      "meta": 0
+    },
+    "output": {
+      "name": "arsmagica2:ore",
+      "meta": 3
+    }
+  },
+  {
+    "fluidName": "lava",
+    "input": {
+      "name": "arsmagica2:ore",
+      "meta": 3
+    },
+    "output": {
+      "name": "arsmagica2:ore",
+      "meta": 4
+    }
+  }
+  
+]
